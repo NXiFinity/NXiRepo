@@ -1,1 +1,1 @@
-export * from './lib/web.module';
+export * from './lib/layouts/layouts.module';
