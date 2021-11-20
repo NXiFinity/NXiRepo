@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@aio/block": ["libs/block/src/index.ts"],
+      "@aio/mobile": ["libs/mobile/src/index.ts"],
+      "@aio/rest": ["libs/rest/src/index.ts"],
+      "@aio/web": ["libs/web/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
