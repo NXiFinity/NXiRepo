@@ -15,7 +15,7 @@ export * from './lib/modules/public/socialpage/socialpage.module'
 export * from './lib/modules/public/storepage/storepage.module'
 // PRIVATE PAGES MODULES
 export * from './lib/modules/private/private.module';
-// AUTH ASSET MODULES
+// AUTH ASSETS MODULES
 export * from './lib/security/assets/login/login.module';
 export * from './lib/security/assets/register/register.module';
 export * from './lib/security/assets/forgot/forgot.module';
