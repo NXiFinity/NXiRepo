@@ -1,5 +1,5 @@
-Welcome to our **Fully Loaded** Enterprise Resource & Relationship Manager
-This is an **OpenSource** project with commercial licensing requirements
+Welcome to our **Fully Loaded** Enterprise Resource & Relationship Manager  
+This is an **OpenSource** project with commercial licensing requirements  
 ###### **CodeName:** [NXiFinity](https://nxifinity.github.io)
 
 
