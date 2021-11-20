@@ -11,9 +11,10 @@ This is an **OpenSource** project with commercial licensing requirements
   - Social Media Connection & Management
   - Ecommerce with Multi-Vendor Support
   - Loyalty & Rewards System
-  - Cross-Platform Support inc iOS & Android
+  - Cross-Platform Support inc iOS & Android  
+  
 
-
+--------------------------------------
 <!---
 NXiFinity/NXiFinity is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
