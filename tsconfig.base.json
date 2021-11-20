@@ -18,7 +18,8 @@
       "@aio/block": ["libs/block/src/index.ts"],
       "@aio/mobile": ["libs/mobile/src/index.ts"],
       "@aio/rest": ["libs/rest/src/index.ts"],
-      "@aio/web": ["libs/web/src/index.ts"]
+      "@aio/web": ["libs/web/src/index.ts"],
+      "@aio/web/public": ["libs/web/src/lib/modules/public/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

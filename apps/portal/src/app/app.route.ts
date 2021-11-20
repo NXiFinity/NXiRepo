@@ -6,7 +6,12 @@ export const appRoutes: Route[] = [
     path: '',
     component: LayoutsComponent,
     data: { layout: 'default' },
-    children: [],
+    children: [
+      { path: '', loadChildren: () => import('@aio/web').then(m => m.HomepageModule)},
+      { path: 'legal', loadChildren: () => import('@aio/web').then(m => m.LegalpageModule)},
+      { path: 'docs', loadChildren: () => import('@aio/web').then(m => m.DocspageModule)},
+      { path: 'developers', loadChildren: () => import('@aio/web').then(m => m.DevspageModule)},
+    ],
   },
   { // AUTHENTICATION ROUTING
     path: 'auth',
@@ -19,5 +24,17 @@ export const appRoutes: Route[] = [
       { path: 'reset', loadChildren: () => import('@aio/web').then(m => m.ResetModule)},
       { path: 'verify', loadChildren: () => import('@aio/web').then(m => m.VerifyModule)},
     ],
+  },
+  { // PRIVATE DASHBOARD ROUTING
+    path: 'dashboard',
+    component: LayoutsComponent,
+    data: { layout: 'default' },
+    children: [],
+  },
+  { // PRIVATE SETTINGS ROUTING
+    path: 'settings',
+    component: LayoutsComponent,
+    data: { layout: 'default' },
+    children: [],
   },
 ];

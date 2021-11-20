@@ -1,8 +1,19 @@
 // LAYOUT MODULE & COMPONENT
 export * from './lib/layouts/layouts.module';
 export * from './lib/layouts/layouts.component';
-// PAGES MODULES
+// PUBLIC PAGES MODULES
 export * from './lib/modules/public/public.module';
+export * from './lib/modules/public/homepage/homepage.module'
+export * from './lib/modules/public/blogpage/blogpage.module'
+export * from './lib/modules/public/devspage/devspage.module'
+export * from './lib/modules/public/docspage/docspage.module'
+export * from './lib/modules/public/forumpage/forumpage.module'
+export * from './lib/modules/public/legalpage/legalpage.module'
+export * from './lib/modules/public/livepage/livepage.module'
+export * from './lib/modules/public/marketpage/marketpage.module'
+export * from './lib/modules/public/socialpage/socialpage.module'
+export * from './lib/modules/public/storepage/storepage.module'
+// PRIVATE PAGES MODULES
 export * from './lib/modules/private/private.module';
 // AUTH ASSET MODULES
 export * from './lib/security/assets/login/login.module';
