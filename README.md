@@ -6,6 +6,7 @@ This is an **OpenSource** project with commercial licensing requirements
 --------------------------------------
 - Cryptographic Secure Data Platform
   - Enterprise Resource & Relationship Manager
+  - Cryptographic Ledger
   - Sales Management & Point of Sales
   - Social Media Connection & Management
   - Ecommerce with Multi-Vendor Support
