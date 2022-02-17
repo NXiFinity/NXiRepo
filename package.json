@@ -35,7 +35,7 @@
     "@rxap/plugin-localazy": "^12.1.2",
     "@twittwer/compodoc": "^1.6.5",
     "core-js": "^3.6.5",
-    "next": "12.0.0",
+    "next": "12.1.0",
     "nx-electron": "^11.4.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
