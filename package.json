@@ -26,7 +26,7 @@
     "@jnxplus/nx-boot-maven": "^0.3.0",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
-    "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/platform-express": "^8.4.7",
     "@nrwl/angular": "^13.2.1",
     "@nrwl/next": "^13.2.1",
     "@nxrocks/nx-spring-boot": "^3.0.0",
