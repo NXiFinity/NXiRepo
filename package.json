@@ -22,7 +22,7 @@
     "@angular/platform-browser": "^13.0.0",
     "@angular/platform-browser-dynamic": "^13.0.0",
     "@angular/router": "^13.0.0",
-    "@flowaccount/nx-serverless": "^0.5.4",
+    "@flowaccount/nx-serverless": "^0.5.5",
     "@jnxplus/nx-boot-maven": "^0.3.0",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
